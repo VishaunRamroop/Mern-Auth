@@ -1,0 +1,13 @@
+.user-info-container{
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-items: center;
+}
+
+.user-info-wrapper,th,td{
+  border: 1px solid #9ACBD0;
+  padding: 1rem;
+  font-size: 25px;
+  background-color:#2973B2 ;
+}

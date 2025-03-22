@@ -1,0 +1,28 @@
+.verification-wrapper{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  background-color:#074173;
+  padding: 1rem;
+  gap: 40px;
+}
+h2{
+  text-decoration: underline;
+  color:white;
+  font-size: 25px;
+}
+.verification-form{
+  display: flex;
+  padding: 2rem;
+  gap: 10px 10px;
+  border: solid 1px black;
+  background-color: #B3C8CF;
+  border-radius: 10px;
+}
+.verification-form-input{
+  width: 55px;
+  padding: 10px;
+}

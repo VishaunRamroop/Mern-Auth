@@ -1,0 +1,33 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: sans-serif;
+  text-align: center;
+  box-sizing: border-box;
+}
+a{
+  color: black;
+  font-weight: 400;
+  font-style: italic;
+  font-size: 20px;
+}
+
+input{
+  padding: .5rem;
+  border-radius: 10px;
+  border: none;
+  background-color: #F6F4F0;
+  color: black;
+  font-family: bold;
+}
+
+input:focus{
+  outline: none;
+  background-color: white;
+}
+.lucide-icon{
+  height: 20px;
+  width: 20px
+  ;
+}

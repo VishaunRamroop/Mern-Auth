@@ -1,0 +1,38 @@
+.login-wrapper{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  place-items: center;
+  background-color:#074173;
+}
+.login-form{
+ 
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: solid 1px black;
+  background-color: #B3C8CF;
+}
+.login{
+  width: 100%;
+  background-color: #133E87;
+  color: #B3C8CF;
+  padding: .25rem;
+}
+.password-wrapper{
+ min-width: 100px;
+  position: relative;
+  }
+.eye-login{
+  position: absolute;
+  right: 10%;
+  top: 20%;
+  cursor: pointer;
+}
+.eye:hover{
+color: #074173;
+
+}

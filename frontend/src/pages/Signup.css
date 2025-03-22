@@ -1,0 +1,39 @@
+.signup-wrapper{
+  display: grid;
+  place-items: center;
+  padding: 1rem;
+  height: 100vh;
+  width: 100vw;
+  background-color:#074173;
+}
+.signup-form{
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border: solid 1px black;
+  background-color: #B3C8CF;
+}
+.signup{
+  width: 100%;
+  background-color: #133E87;
+  color: #B3C8CF;
+  padding: .25rem;
+}
+.password-wrapper{
+  width: 100%;
+  position: relative;
+  }
+
+.eye-signup{
+  position: absolute;
+  right: 20%;
+  top: 20%;
+  cursor: pointer;
+}
+.eye:hover{
+color: #074173;
+
+}
