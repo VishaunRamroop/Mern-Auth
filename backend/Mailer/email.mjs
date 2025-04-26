@@ -6,11 +6,12 @@ import { transporter } from "./nodeMailer.mjs";
     text: "Hello world?", // plain text body
     html: "<b>Hello world?</b>", // html body
   });*/ 
-
+import dotenv from 'dotenv';
+dotenv.config()
 async function sendWelcomeEmail(verificationCode,email) {
   try {
     const welcome = await transporter.sendMail({
-        from:'vishaunramroop@gmail.com',
+        from:`${process.env.USER}`,
         to:`${email}`,
         subject:'Verify Email Address',
         text:"Welcome, please verify your email address",
@@ -28,7 +29,7 @@ async function sendWelcomeEmail(verificationCode,email) {
 async function forgotPasswordSender(resetURL,email){
   try {
     const forgot = await transporter.sendMail({
-      from:'vishaunramroop@gmail.com',
+      from:`${process.env.USER}`,
       to:`${email}`,
       subject:'Reset Password',
       text:"Instructions to reset password",
@@ -43,7 +44,7 @@ async function forgotPasswordSender(resetURL,email){
 async function resetPasswordSuccessful(email){
 try {
   const reset = await transporter.sendMail({
-    from:'vishaunramroop@gmail.com',
+    from:`${process.env.USER}`,
     to:`${email}`,
     subject:'Reset Password Successful',
     text:"Your password has been changed",
